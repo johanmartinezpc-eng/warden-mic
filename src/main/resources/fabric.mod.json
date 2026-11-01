@@ -9,6 +9,7 @@
     "main": ["com.wardenmic.WardenMic"],
     "client": ["com.wardenmic.client.WardenMicClient"]
   },
+  "mixins": ["wardenmic.mixins.json"],
   "depends": {
     "fabricloader": ">=0.16.0",
     "minecraft": "~26.3",
