@@ -48,7 +48,6 @@ public class WardenMicClient implements ClientModInitializer {
                 Identifier.fromNamespaceAndPath("wardenmic", "mic_wave"),
                 (GuiGraphicsExtractor g, DeltaTracker delta) -> {
             var mc = net.minecraft.client.Minecraft.getInstance();
-            if (mc.options.hideGui) return;
 
             int w = HISTORY * 2;   // 2 px por muestra
             int h = 40;
